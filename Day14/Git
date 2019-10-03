@@ -1,0 +1,28 @@
+GIT Notes
+--------------------------------
+
+SCM - Source Code Management aka Version Control System
+	-Are used to track Changes done in source code
+	-"Are not| supposed to be used to track versions of binary
+	
+
+DVCS - Distributed Version COntrol System
+	Git
+	GitHub
+	Perforce
+
+Checkout - IF you wanted to modify a version controlled file, you need to first checkout the file before ,odifuimg the file so that Version Control tool can track your changes
+
+Checkin - After you made some bug fix changes or enhancement related changes, you submin your changes which is referred as "checkin"
+
+Diff - you can compare two different versions of the same file
+
+Revert - discarding your changes from the version control tool
+
+Repository - Version COntrolled Directory/Folder.
+
+2-stage commit
++++++++++++++++++
+Before you can commit your changes you need to stage your changes.
+
+

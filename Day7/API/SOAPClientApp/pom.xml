@@ -1,0 +1,10 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
+=======
+
+>>>>>>> fac0afe5065c16e8fa0cad54beaedcee46f1103c
+	<groupId>com.amdocs</groupId>
+	<artifactId>amdocs-soap-client</artifactId>
+	<version>1.0.0</version>
+</project>
