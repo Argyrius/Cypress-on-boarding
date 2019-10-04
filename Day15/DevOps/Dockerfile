@@ -8,10 +8,8 @@ ENV ALL_PROXY=http://192.168.101.52:8080
 
 RUN apt-get update && apt-get install default-jdk git maven -y
 
-<<<<<<< HEAD
 RUN apt-get update && apt-get install default-jdk git -y
 RUN apt-get install maven -y
 
 COPY apache-maven-3.6.1-bin.tar.gz /root/apache-maven-3.6.1-bin.tar.gz 
-=======
->>>>>>> f33b538c70f8cea69325b9bb43ccc80b1d14971e
+
