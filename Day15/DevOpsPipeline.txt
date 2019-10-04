@@ -1,0 +1,16 @@
+DevOps PipeLine
++++++++++++++++
+
+We are going to create a chain of Jenkins jobs to create DevOps Pipeline.
+1. Jenkins Job 1 - Will build Custom Docker Image with a Dockerfile
+2. Jenkins Job 2 - Will build a Maven based Java project inside a Docker Container that was provisioned on the fly at runtime with the Docker image that was builtby Jenkins Job 1.
+
+Whenever we commit source into GiHub Repository, Jenkins Job 1 will detect the code change and will trigger the Docker Image build automatically
+
+Once Jenkins Job 1 builds successfully it will trigger Jenkins Job 2.
+
+This excersise will help to understand the below concepts
+	1. Jenkins DevOps Pipeline
+	2. Jenkins Master/Slave Node
+	3. Docker Jenkins Plugin
+
